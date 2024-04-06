@@ -1,5 +1,7 @@
 import requests
 from cohere.client import Client
+from cohere.responses.classify import Example
+
 import subprocess
 import time
 import json
@@ -22,17 +24,33 @@ def classify_emails(emails):
     classified_emails = []
     examples = [
         {"input": "How do I find my insurance policy?", "label": "Policy Inquiry"},
-        {"input": "How do I download a copy of my insurance policy?", "label": "Policy Download"}
+        {"input": "How do I download a copy of my insurance policy?", "label": "Policy Download"},
     ]
+    examples=[
+            Example("How do I find my insurance policy?", "Finding policy details"),
+            Example("How do I download a copy of my insurance policy?", "Finding policy details"),
+            Example("How do I file an insurance claim?", "Filing a claim and viewing status"),
+            Example("How do I file a reimbursement claim?", "Filing a claim and viewing status"),
+            ]
     for email in emails:
         input_text = email['body'].strip()  # Strip any leading/trailing whitespace
         if input_text:  # Check if input text is not empty
             try:
                 # Pass examples with at least two classes
+                print("input text = ",input_text)
+                print("beginning classification...")
                 classification_response = cohere_client.classify(inputs=[input_text], examples=examples)
+                
+                print("fetiching classsifcation response")
                 category = classification_response['outputs'][0]['label']
+                print("category = ",category)
+
                 email['category'] = category
+                print("email category is set to ",email['category'])
+
                 classified_emails.append(email)
+
+                print("email appended")
             except Exception as e:
                 print("Error classifying email:", str(e))
         else:
