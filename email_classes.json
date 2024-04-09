@@ -1,7 +1,7 @@
 {
     "mails":{
         "mail1": {
-            "from": "praveen21.tech@gmail.com",
+            "from": "aiprojects345@gmail.com",
             "subject": "subject1",
             "classfi": "class1"
         },
@@ -16,7 +16,7 @@
             "classfi": "class3"
         },
         "mail4": {
-            "from": "testpixeltest8@gmail.com            ",
+            "from": "testpixeltest8@gmail.com",
             "subject": "subject4",
             "classfi": "class4"
         },
