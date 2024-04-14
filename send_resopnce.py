@@ -1,11 +1,12 @@
 import base64
 import os
 import json
-
+from google_auth_oauthlib.flow import Flow
 from email.message import EmailMessage
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
+from flask import Flask, redirect, request, Response, jsonify
 
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
@@ -22,32 +23,35 @@ def authenticate():
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            flow = InstalledAppFlow.from_client_secrets_file(
-                'credentials.json', SCOPES)
-            creds = flow.run_local_server(port=0)
+            flow = Flow.from_client_secrets_file(
+            'credentials.json',  # Path to your client secret JSON file
+            scopes=SCOPES,
+            redirect_uri='http://localhost:5000/callback')
+            authorization_url, _ = flow.authorization_url(prompt='consent')
+            
         
         with open('mailtoken.json', 'w') as token:        
             token.write(creds.to_json())
 
     return creds
 
-def get_emails():
-    with open('email_classes.json') as f:
-        emails_data = json.load(f)
-    return emails_data['mails']
-
 def get_responses():
     with open('responce_mails.json') as f:
         responses_data = json.load(f)
     return responses_data['responces']
 
-def send_email(to_address, subject, response_content):
+def get_responce(classfi):
+    responses = get_responses()
+    response_content = responses.get(classfi, {}).get('responce', 'Default response')
+    return response_content
+
+def send_email(to_address, subject, classfi):
     creds = authenticate()
+    response_content = get_responce(classfi)
     
     try:
         service = build("gmail", "v1", credentials=creds)
         message = EmailMessage()
-        
 
         message.set_content(response_content)
         message["To"] = to_address
@@ -58,7 +62,6 @@ def send_email(to_address, subject, response_content):
         encoded_message = base64.urlsafe_b64encode(message.as_bytes()).decode()
 
         create_message = {"raw": encoded_message}
-        # pylint: disable=E1101
         send_message = (
             service.users()
             .messages()
@@ -68,18 +71,8 @@ def send_email(to_address, subject, response_content):
         print(f'Message Id: {send_message["id"]}')
     except HttpError as error:
         print(f"An error occurred: {error}")
-
-def process_emails():
-    emails = get_emails()
-    responses = get_responses()
-    
-    for mail, data in emails.items():
-        to_address = data['from']
-        subject = data['subject']
-        classfi = data['classfi']
-        response_content = responses.get(classfi, {}).get('responce', 'Default response')
         
-        send_email(to_address, subject, response_content)
+
 
 if __name__ == "__main__":
-    process_emails()
+    send_email("to_address", "subject", "response_content")

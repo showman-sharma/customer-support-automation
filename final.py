@@ -1,14 +1,49 @@
+import os
 import base64
 import json
-from authenticate import *
-from send_resopnce import send_email
-from email_classifier import classifi
 from flask import Flask, redirect, request, Response, jsonify
+
+from google.oauth2.credentials import Credentials
+from google_auth_oauthlib.flow import Flow
 from googleapiclient.discovery import build
 
 app = Flask(__name__)
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
+
+def authenticate():
+    creds = None         
+
+    if os.path.exists('token.json'):
+        creds = Credentials.from_authorized_user_file('token.json', SCOPES)
+        
+    if not creds or not creds.valid:
+        flow = Flow.from_client_secrets_file(
+            'credentials.json',  # Path to your client secret JSON file
+            scopes=SCOPES,
+            redirect_uri='http://localhost:5000/callback'
+        )
+        authorization_url, _ = flow.authorization_url(prompt='consent')
+        return authorization_url, flow
+    else:
+        return None, None
+
+def get_unseen_emails(service):     
+    try:  
+        messages = service.users().messages().list(userId='me', labelIds=['UNREAD']).execute()
+        message_ids = messages.get('messages', [])
+        return message_ids
+    except Exception as e:
+        print("An error occurred:", e)
+        return None
+
+def get_email(service, message_id):
+    try:
+        message = service.users().messages().get(userId='me', id=message_id['id']).execute()
+        return message
+    except Exception as e:
+        print("An error occurred:", e)
+        return None
 
 @app.route('/')
 def index():
@@ -75,19 +110,8 @@ def fetch_emails():
                 json.dump(all_emails, file, indent=4)
                 
         return Response(generate_emails(), content_type='text/plain')
-    
-    else:
-        return "No new emails found."
-    
-@app.route('/classification')
-def classification():
-    # classifi()
-    return "Classified Successfully!"
-
-@app.route('/send_response')
-def send_response():
-    send_email("ravikumar_csd@srkrec.edu.in", "Test Subject", "class1")
-    return "Response sent successfully!"
+                
+    return jsonify(all_emails)
 
 if __name__ == '__main__':
     app.run(port=5000)

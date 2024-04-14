@@ -1,13 +1,13 @@
 import requests
 from cohere.client import Client
 from cohere.responses.classify import Example
+from authenticate import *
 
 import subprocess
 import time
-import json
 
 # Initialize Cohere client with your API key
-cohere_client = Client('u49Hv2HjZCt17mNRirq6lC20BlOEXdkb6Rebri23')  # Replace <<apiKey>> with your actual API key
+cohere_client = Client('Upq0AQhc4vjeITGkTHAyEQdCavoTfyKXZkOeDrwH')  # Replace <<apiKey>> with your actual API key
 
 # Fetch emails using the fetch_emails API from gmail_api.py
 def fetch_emails():
@@ -58,7 +58,7 @@ def classify_emails(emails):
     return classified_emails
 
 # Main function to fetch and classify emails
-def main():
+def classifi():
     # Start the Flask server in a subprocess
     server_process = subprocess.Popen(["python3", "gmail_api.py"])
     # Wait for a few seconds to allow the server to start
@@ -78,5 +78,3 @@ def main():
     # Terminate the Flask server subprocess
     server_process.terminate()
 
-if __name__ == "__main__":
-    main()
