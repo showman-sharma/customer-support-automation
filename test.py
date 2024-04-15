@@ -15,7 +15,7 @@ SCOPES = ['https://www.googleapis.com/auth/gmail.send']
 
 def authenticate():
     creds = None
-    
+        
     if os.path.exists('mailtoken.json'):
         creds = Credentials.from_authorized_user_file('mailtoken.json', SCOPES)
         
