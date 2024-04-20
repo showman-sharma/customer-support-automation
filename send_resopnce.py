@@ -1,59 +1,23 @@
 import base64
-import os
 import json
-from google_auth_oauthlib.flow import Flow
+import re
+from feedback import feedbackcode
+from mailauthcate import mailauthenticate
 from email.message import EmailMessage
-from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.transport.requests import Request
-from flask import Flask, redirect, request, Response, jsonify
-
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
-SCOPES = ['https://www.googleapis.com/auth/gmail.send']
 
-def authenticate():
-    creds = None
-    
-    if os.path.exists('mailtoken.json'):
-        creds = Credentials.from_authorized_user_file('mailtoken.json', SCOPES)
-        
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
-            flow = Flow.from_client_secrets_file(
-            'credentials.json',  # Path to your client secret JSON file
-            scopes=SCOPES,
-            redirect_uri='http://localhost:5000/callback')
-            authorization_url, _ = flow.authorization_url(prompt='consent')
-            
-        
-        with open('mailtoken.json', 'w') as token:        
-            token.write(creds.to_json())
 
-    return creds
-
-def get_responses():
-    with open('responce_mails.json') as f:
-        responses_data = json.load(f)
-    return responses_data['responces']
-
-def get_responce(classfi):
-    responses = get_responses()
-    response_content = responses.get(classfi, {}).get('responce', 'Default response')
-    return response_content
-
-def send_email(to_address, subject, classfi):
-    creds = authenticate()
-    response_content = get_responce(classfi)
+def send_email(to_address, subject, classfi, body):
+    creds = mailauthenticate()
+    feedback_content = feedbackcode(subject, body, to_address, classfi)
     
     try:
         service = build("gmail", "v1", credentials=creds)
         message = EmailMessage()
 
-        message.set_content(response_content)
+        message.set_content(feedback_content, subtype="html")
         message["To"] = to_address
         message["From"] = "testpixeltest8@gmail.com"
         message["Subject"] = subject
@@ -69,10 +33,38 @@ def send_email(to_address, subject, classfi):
             .execute()
         )
         print(f'Message Id: {send_message["id"]}')
+        return send_message
     except HttpError as error:
         print(f"An error occurred: {error}")
         
+def forwardmessage(to_address, subject, body):
+    creds = mailauthenticate()
+    
+    try:
+        service = build("gmail", "v1", credentials=creds)
+        message = EmailMessage()
+        pattern = r'<([^>]+)>'
+        matches = re.findall(pattern, to_address)
+        if matches:
+            sendermail = matches[0]
+        messbody = body + "<br><br> This email was forwarded because it was unpredicatable." + "<br><br>" + "Sender Mail ID: " + to_address + "<br><br>" + "Sender Email: " + sendermail + "<br><br>" + "Subject: " + subject
 
+        message.set_content(messbody, subtype="html")
+        message["To"] = "testpixeltest8@gmail.com"
+        message["From"] = "testpixeltest8@gmail.com"
+        message["Subject"] = subject
 
-if __name__ == "__main__":
-    send_email("to_address", "subject", "response_content")
+        # encoded message
+        encoded_message = base64.urlsafe_b64encode(message.as_bytes()).decode()
+
+        create_message = {"raw": encoded_message}
+        send_message = (
+            service.users()
+            .messages()
+            .send(userId="me", body=create_message)
+            .execute()
+        )
+        print(f'Message Id: {send_message["id"]}')
+        return send_message
+    except HttpError as error:
+        print(f"An error occurred: {error}")
