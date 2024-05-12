@@ -1,0 +1,143 @@
+2024-05-10 17:32:07,591 - WARNING -  * Debugger is active!
+2024-05-10 17:32:07,591 - WARNING -  * Debugger is active!
+2024-05-10 17:32:07,600 - INFO -  * Debugger PIN: 597-147-051
+2024-05-10 17:32:07,603 - INFO -  * Debugger PIN: 597-147-051
+2024-05-10 17:32:41,027 - INFO - 127.0.0.1 - - [10/May/2024 17:32:41] "[35m[1mGET /?name=Reddi+madhavi&age=20&city=hydrabad HTTP/1.1[0m" 500 -
+2024-05-10 17:32:41,321 - INFO - 127.0.0.1 - - [10/May/2024 17:32:41] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-10 17:32:41,350 - INFO - 127.0.0.1 - - [10/May/2024 17:32:41] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-10 17:32:41,537 - INFO - 127.0.0.1 - - [10/May/2024 17:32:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:32:41,614 - INFO - 127.0.0.1 - - [10/May/2024 17:32:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:33:06,054 - INFO - 127.0.0.1 - - [10/May/2024 17:33:06] "[35m[1mGET /?name=Reddi+madhavi&age=20&city=hydrabad HTTP/1.1[0m" 500 -
+2024-05-10 17:33:06,095 - INFO - 127.0.0.1 - - [10/May/2024 17:33:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-10 17:33:06,099 - INFO - 127.0.0.1 - - [10/May/2024 17:33:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-10 17:33:06,155 - INFO - 127.0.0.1 - - [10/May/2024 17:33:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:33:06,214 - INFO - 127.0.0.1 - - [10/May/2024 17:33:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:33:07,247 - INFO - 127.0.0.1 - - [10/May/2024 17:33:07] "[35m[1mGET /?name=Reddi+madhavi&age=20&city=hydrabad HTTP/1.1[0m" 500 -
+2024-05-10 17:33:07,273 - INFO - 127.0.0.1 - - [10/May/2024 17:33:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-10 17:33:07,300 - INFO - 127.0.0.1 - - [10/May/2024 17:33:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-10 17:33:07,375 - INFO - 127.0.0.1 - - [10/May/2024 17:33:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:33:07,409 - INFO - 127.0.0.1 - - [10/May/2024 17:33:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:33:08,246 - INFO - 127.0.0.1 - - [10/May/2024 17:33:08] "[35m[1mGET /?name=Reddi+madhavi&age=20&city=hydrabad HTTP/1.1[0m" 500 -
+2024-05-10 17:33:08,280 - INFO - 127.0.0.1 - - [10/May/2024 17:33:08] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-10 17:33:08,282 - INFO - 127.0.0.1 - - [10/May/2024 17:33:08] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-10 17:33:08,322 - INFO - 127.0.0.1 - - [10/May/2024 17:33:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:33:08,364 - INFO - 127.0.0.1 - - [10/May/2024 17:33:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:34:39,440 - INFO - 127.0.0.1 - - [10/May/2024 17:34:39] "[35m[1mGET /?name=Reddi+madhavi&age=20&city=hydrabad HTTP/1.1[0m" 500 -
+2024-05-10 17:34:39,462 - INFO - 127.0.0.1 - - [10/May/2024 17:34:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-10 17:34:39,477 - INFO - 127.0.0.1 - - [10/May/2024 17:34:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-10 17:34:39,532 - INFO - 127.0.0.1 - - [10/May/2024 17:34:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:34:39,587 - INFO - 127.0.0.1 - - [10/May/2024 17:34:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:34:40,530 - INFO - 127.0.0.1 - - [10/May/2024 17:34:40] "[35m[1mGET /?name=Reddi+madhavi&age=20&city=hydrabad HTTP/1.1[0m" 500 -
+2024-05-10 17:34:40,559 - INFO - 127.0.0.1 - - [10/May/2024 17:34:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-10 17:34:40,584 - INFO - 127.0.0.1 - - [10/May/2024 17:34:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-10 17:34:40,623 - INFO - 127.0.0.1 - - [10/May/2024 17:34:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:34:40,677 - INFO - 127.0.0.1 - - [10/May/2024 17:34:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:34:59,978 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-10 17:34:59,979 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-10 17:34:59,987 - INFO -  * Restarting with stat
+2024-05-10 17:35:03,449 - WARNING -  * Debugger is active!
+2024-05-10 17:35:03,457 - INFO -  * Debugger PIN: 597-147-051
+2024-05-10 17:37:57,771 - INFO - 127.0.0.1 - - [10/May/2024 17:37:57] "[35m[1mGET /?name=Reddi+madhavi&age=20&city=hydrabad HTTP/1.1[0m" 500 -
+2024-05-10 17:37:57,804 - INFO - 127.0.0.1 - - [10/May/2024 17:37:57] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-10 17:37:57,805 - INFO - 127.0.0.1 - - [10/May/2024 17:37:57] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-10 17:37:57,849 - INFO - 127.0.0.1 - - [10/May/2024 17:37:57] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:37:57,887 - INFO - 127.0.0.1 - - [10/May/2024 17:37:57] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:37:58,996 - INFO - 127.0.0.1 - - [10/May/2024 17:37:58] "[35m[1mGET /?name=Reddi+madhavi&age=20&city=hydrabad HTTP/1.1[0m" 500 -
+2024-05-10 17:37:59,023 - INFO - 127.0.0.1 - - [10/May/2024 17:37:59] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-10 17:37:59,044 - INFO - 127.0.0.1 - - [10/May/2024 17:37:59] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-10 17:37:59,082 - INFO - 127.0.0.1 - - [10/May/2024 17:37:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:37:59,132 - INFO - 127.0.0.1 - - [10/May/2024 17:37:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-10 17:40:07,920 - INFO -  * Detected change in 'C:\\Users\\madha\\OneDrive\\Desktop\\email\\app.py', reloading
+2024-05-10 17:40:08,146 - INFO -  * Detected change in 'C:\\Users\\madha\\OneDrive\\Desktop\\email\\app.py', reloading
+2024-05-10 17:40:10,390 - INFO -  * Detected change in 'C:\\Users\\madha\\OneDrive\\Desktop\\email\\app.py', reloading
+2024-05-10 17:40:11,027 - INFO -  * Restarting with stat
+2024-05-10 17:40:13,633 - WARNING -  * Debugger is active!
+2024-05-10 17:40:13,633 - WARNING -  * Debugger is active!
+2024-05-10 17:40:13,650 - INFO -  * Debugger PIN: 597-147-051
+2024-05-10 17:40:13,651 - INFO -  * Debugger PIN: 597-147-051
+2024-05-10 17:40:14,169 - WARNING -  * Debugger is active!
+2024-05-10 17:40:14,186 - INFO -  * Debugger PIN: 597-147-051
+2024-05-10 17:40:14,690 - INFO - 127.0.0.1 - - [10/May/2024 17:40:14] "GET /?name=Reddi+madhavi&age=20&city=hydrabad HTTP/1.1" 200 -
+2024-05-10 17:40:20,702 - ERROR - Error processing request: NDFrame.to_excel() got an unexpected keyword argument 'mode'
+2024-05-10 17:40:20,707 - INFO - 127.0.0.1 - - [10/May/2024 17:40:20] "[32mPOST /submit HTTP/1.1[0m" 302 -
+2024-05-10 17:40:20,727 - INFO - 127.0.0.1 - - [10/May/2024 17:40:20] "GET / HTTP/1.1" 200 -
+2024-05-10 17:40:24,670 - INFO - 127.0.0.1 - - [10/May/2024 17:40:24] "GET / HTTP/1.1" 200 -
+2024-05-10 17:40:28,550 - ERROR - Error processing request: NDFrame.to_excel() got an unexpected keyword argument 'mode'
+2024-05-10 17:40:28,551 - INFO - 127.0.0.1 - - [10/May/2024 17:40:28] "[32mPOST /submit HTTP/1.1[0m" 302 -
+2024-05-10 17:40:28,567 - INFO - 127.0.0.1 - - [10/May/2024 17:40:28] "GET / HTTP/1.1" 200 -
+2024-05-10 17:41:57,664 - INFO - 127.0.0.1 - - [10/May/2024 17:41:57] "GET / HTTP/1.1" 200 -
+2024-05-10 17:42:53,699 - INFO - 127.0.0.1 - - [10/May/2024 17:42:53] "GET / HTTP/1.1" 200 -
+2024-05-10 20:36:32,263 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-10 20:36:32,264 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-10 20:36:32,276 - INFO -  * Restarting with stat
+2024-05-10 20:36:35,124 - WARNING -  * Debugger is active!
+2024-05-10 20:36:35,138 - INFO -  * Debugger PIN: 597-147-051
+2024-05-10 20:37:46,531 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-10 20:37:46,531 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-10 20:37:46,541 - INFO -  * Restarting with stat
+2024-05-10 20:37:50,419 - WARNING -  * Debugger is active!
+2024-05-10 20:37:50,434 - INFO -  * Debugger PIN: 597-147-051
+2024-05-10 20:39:12,029 - INFO -  * Detected change in 'C:\\Users\\madha\\OneDrive\\Desktop\\email\\app.py', reloading
+2024-05-10 20:39:12,515 - INFO -  * Detected change in 'C:\\Users\\madha\\OneDrive\\Desktop\\email\\app.py', reloading
+2024-05-10 20:39:12,830 - INFO -  * Restarting with stat
+2024-05-10 20:39:13,530 - INFO -  * Restarting with stat
+2024-05-10 20:39:17,015 - WARNING -  * Debugger is active!
+2024-05-10 20:39:17,016 - WARNING -  * Debugger is active!
+2024-05-10 20:39:17,030 - INFO -  * Debugger PIN: 597-147-051
+2024-05-10 20:39:17,030 - INFO -  * Debugger PIN: 597-147-051
+2024-05-10 20:39:30,785 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-10 20:39:30,785 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-10 20:39:30,791 - INFO -  * Restarting with stat
+2024-05-10 20:39:33,160 - WARNING -  * Debugger is active!
+2024-05-10 20:39:33,169 - INFO -  * Debugger PIN: 597-147-051
+2024-05-10 20:40:10,393 - INFO - 127.0.0.1 - - [10/May/2024 20:40:10] "GET / HTTP/1.1" 200 -
+2024-05-10 20:40:10,684 - INFO - 127.0.0.1 - - [10/May/2024 20:40:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-10 20:40:19,760 - ERROR - Error processing request: NDFrame.to_excel() got an unexpected keyword argument 'mode'
+2024-05-10 20:40:19,762 - INFO - 127.0.0.1 - - [10/May/2024 20:40:19] "[32mPOST /submit HTTP/1.1[0m" 302 -
+2024-05-10 20:40:19,780 - INFO - 127.0.0.1 - - [10/May/2024 20:40:19] "GET / HTTP/1.1" 200 -
+2024-05-10 21:24:29,418 - ERROR - Error processing request: NDFrame.to_excel() got an unexpected keyword argument 'mode'
+2024-05-10 21:24:29,425 - INFO - 127.0.0.1 - - [10/May/2024 21:24:29] "[32mPOST /submit HTTP/1.1[0m" 302 -
+2024-05-10 21:24:29,457 - INFO - 127.0.0.1 - - [10/May/2024 21:24:29] "GET / HTTP/1.1" 200 -
+2024-05-11 09:11:49,132 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-11 09:11:49,134 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-11 09:11:49,146 - INFO -  * Restarting with stat
+2024-05-11 09:11:58,213 - WARNING -  * Debugger is active!
+2024-05-11 09:11:58,237 - INFO -  * Debugger PIN: 597-147-051
+2024-05-11 09:12:10,479 - INFO - 127.0.0.1 - - [11/May/2024 09:12:10] "GET / HTTP/1.1" 200 -
+2024-05-11 09:12:11,908 - INFO - 127.0.0.1 - - [11/May/2024 09:12:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-11 09:12:20,039 - ERROR - Error processing request: NDFrame.to_excel() got an unexpected keyword argument 'mode'
+2024-05-11 09:12:20,041 - INFO - 127.0.0.1 - - [11/May/2024 09:12:20] "[32mPOST /submit HTTP/1.1[0m" 302 -
+2024-05-11 09:12:20,068 - INFO - 127.0.0.1 - - [11/May/2024 09:12:20] "GET / HTTP/1.1" 200 -
+2024-05-12 14:00:58,054 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-12 14:00:58,055 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-12 14:00:58,075 - INFO -  * Restarting with stat
+2024-05-12 14:01:00,942 - WARNING -  * Debugger is active!
+2024-05-12 14:01:00,958 - INFO -  * Debugger PIN: 597-147-051
+2024-05-12 14:04:03,303 - INFO - 127.0.0.1 - - [12/May/2024 14:04:03] "GET / HTTP/1.1" 200 -
+2024-05-12 14:05:30,866 - ERROR - Error processing request: NDFrame.to_excel() got an unexpected keyword argument 'mode'
+2024-05-12 14:05:30,870 - INFO - 127.0.0.1 - - [12/May/2024 14:05:30] "[32mPOST /submit HTTP/1.1[0m" 302 -
+2024-05-12 14:05:30,891 - INFO - 127.0.0.1 - - [12/May/2024 14:05:30] "GET / HTTP/1.1" 200 -
+2024-05-12 14:06:45,960 - INFO - 127.0.0.1 - - [12/May/2024 14:06:45] "GET / HTTP/1.1" 200 -
+2024-05-12 14:06:50,667 - ERROR - Error processing request: NDFrame.to_excel() got an unexpected keyword argument 'mode'
+2024-05-12 14:06:50,669 - INFO - 127.0.0.1 - - [12/May/2024 14:06:50] "[32mPOST /submit HTTP/1.1[0m" 302 -
+2024-05-12 14:06:50,683 - INFO - 127.0.0.1 - - [12/May/2024 14:06:50] "GET / HTTP/1.1" 200 -
+2024-05-12 14:10:12,059 - INFO - 127.0.0.1 - - [12/May/2024 14:10:12] "GET / HTTP/1.1" 200 -
+2024-05-12 14:10:16,505 - ERROR - Error processing request: NDFrame.to_excel() got an unexpected keyword argument 'mode'
+2024-05-12 14:10:16,507 - INFO - 127.0.0.1 - - [12/May/2024 14:10:16] "[32mPOST /submit HTTP/1.1[0m" 302 -
+2024-05-12 14:10:16,536 - INFO - 127.0.0.1 - - [12/May/2024 14:10:16] "GET / HTTP/1.1" 200 -
+2024-05-12 14:21:10,292 - INFO - 127.0.0.1 - - [12/May/2024 14:21:10] "GET / HTTP/1.1" 200 -
+2024-05-12 14:21:12,765 - INFO - 127.0.0.1 - - [12/May/2024 14:21:12] "GET / HTTP/1.1" 200 -
+2024-05-12 14:22:21,999 - INFO - 127.0.0.1 - - [12/May/2024 14:22:21] "GET / HTTP/1.1" 200 -
+2024-05-12 14:22:26,505 - ERROR - Error processing request: NDFrame.to_excel() got an unexpected keyword argument 'mode'
+2024-05-12 14:22:26,513 - INFO - 127.0.0.1 - - [12/May/2024 14:22:26] "[32mPOST /submit HTTP/1.1[0m" 302 -
+2024-05-12 14:22:26,531 - INFO - 127.0.0.1 - - [12/May/2024 14:22:26] "GET / HTTP/1.1" 200 -
+2024-05-12 14:37:49,670 - INFO - 127.0.0.1 - - [12/May/2024 14:37:49] "GET / HTTP/1.1" 200 -
+2024-05-12 14:37:55,385 - ERROR - Error processing request: NDFrame.to_excel() got an unexpected keyword argument 'mode'
+2024-05-12 14:37:55,398 - INFO - 127.0.0.1 - - [12/May/2024 14:37:55] "[32mPOST /submit HTTP/1.1[0m" 302 -
+2024-05-12 14:37:55,416 - INFO - 127.0.0.1 - - [12/May/2024 14:37:55] "GET / HTTP/1.1" 200 -
