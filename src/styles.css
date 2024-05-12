@@ -1,0 +1,9 @@
+body {
+    background-image: url('https://wallpaperaccess.com/full/1567736.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set height to 100% of the viewport height */
+    width: 100vw; /* Set width to 100% of the viewport width */
+}
