@@ -1,0 +1,340 @@
+{
+  "examples": [
+    {
+      "message": "Hi [Support Team], I seem to have forgotten my password and I'm unable to log into my account. Could you please assist me with resetting my password?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hello, I'm encountering trouble accessing my account due to a forgotten password. Can you help me initiate the password reset process?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi there, I've tried multiple times to log in, but unfortunately, I've forgotten my password. Could you guide me through the steps to reset it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi Support, I'm having difficulty accessing my account due to a password issue. Could you provide instructions on how to reset it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi, I've encountered a problem logging into my account because I can't remember my password. Can you help me reset it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hello Support Team, I need assistance with resetting my password as I'm unable to access my account. Could you please provide guidance on how to proceed?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi, I've forgotten my password and I'm unable to log into my account. Can you please help me reset it so I can regain access?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi Support, I seem to have misplaced my password and I'm unable to access my account. Could you provide assistance with initiating a password reset?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hello [Name], I'm experiencing difficulty logging into my account because I've forgotten my password. Can you please help me reset it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi Support Team, I'm facing an issue accessing my account due to a forgotten password. Could you kindly assist me in resetting it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi, I can't seem to remember my password and I'm unable to access my account. Can you guide me through the process of resetting it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hello, I've tried several times to log in, but it seems I've forgotten my password. Could you please provide instructions on how to reset it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi Support, I need to reset my password as I'm unable to log into my account. Could you provide assistance with this matter?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi [Name], I've encountered a problem logging into my account because I've forgotten my password. Can you please assist me with resetting it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope this message finds you well. I'm writing to request an extension for the completion of my course. Due to unforeseen circumstances, I've fallen behind on my coursework. Could you please grant me an extension so I can catch up? Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I hope you're doing well. I'm reaching out to request an extension for my course. I've been facing some challenges lately which have affected my ability to keep up with the course schedule. Would it be possible to extend the deadline to allow me more time to complete the assignments? Thank you for considering my request.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I'm writing to request an extension for my course. Unfortunately, I've encountered some unexpected difficulties in my personal life which have hindered my progress. I would greatly appreciate it if you could grant me an extension to ensure I can submit my work to the best of my ability. Thank you for your understanding and support.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope you're doing well. I'm writing to request an extension for my course. I've been dealing with some health issues recently which have affected my ability to focus on my studies. I would be grateful if you could provide me with a bit more time to complete the assignments. Thank you for your consideration.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I'm reaching out to request an extension for my course. Unfortunately, I've encountered technical difficulties with accessing some course materials, which has slowed down my progress. Could you please grant me an extension to ensure I can complete the assignments properly? Thank you for your assistance.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope you're doing well. I'm writing to request an extension for my course. I've been juggling multiple responsibilities lately, and as a result, I haven't been able to dedicate as much time to the course as I would like. Would it be possible to extend the deadline to give me more time to complete the assignments? Thank you for your consideration.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope this message finds you well. I'm writing to request an extension for my course. I've been experiencing some personal challenges recently that have affected my ability to focus on my studies. Could you please grant me an extension to ensure I can submit my work on time? Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I'm reaching out to request an extension for my course. I've been dealing with some family issues lately which have made it difficult for me to keep up with the coursework. I would greatly appreciate it if you could provide me with an extension to allow me more time to complete the assignments. Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope you're doing well. I'm writing to request an extension for my course. I've encountered some unexpected work commitments that have taken up a significant amount of my time recently. Would it be possible to extend the deadline to accommodate these commitments? Thank you for your consideration.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I'm reaching out to request an extension for my course. I've been struggling with the course material and need some extra time to fully grasp the concepts and complete the assignments. Could you please grant me an extension to ensure I can submit quality work? Thank you for your support.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope this message finds you well. I'm writing to request an extension for my course. I've been experiencing some personal difficulties lately which have affected my ability to focus on my studies. Could you please grant me an extension to ensure I can submit my work on time? Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I hope you're doing well. I'm reaching out to request an extension for my course. I've been experiencing technical issues with the online platform, which have slowed down my progress. Would it be possible to extend the deadline to ensure I can complete the assignments properly? Thank you for your assistance.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope this message finds you well. I'm writing to request an extension for my course. I've been dealing with some health issues recently which have affected my ability to focus on my studies. Could you please grant me an extension to ensure I can submit quality work? Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I'm reaching out to request an extension for my course. Unfortunately, I've encountered some unexpected family obligations that have taken up a significant amount of my time recently. I would greatly appreciate it if you could provide me with an extension to allow me more time to complete the assignments. Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope you're doing well. I'm writing to request an extension for my course. I've been dealing with some personal challenges lately that have affected my ability to focus on my studies. Would it be possible to extend the deadline to give me more time to complete the assignments? Thank you for your consideration.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I hope this message finds you well. I'm writing to request an extension for my course. I've encountered some unexpected work commitments that have made it difficult for me to keep up with the coursework. Could you please grant me an extension to ensure I can submit my work on time? Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I'm reaching out to request an extension for my course. Unfortunately, I've been dealing with some personal difficulties lately that have affected my ability to focus on my studies. I would greatly appreciate it if you could provide me with an extension to allow me more time to complete the assignments. Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope you're doing well. I'm writing to request an extension for my course. I've encountered some unexpected family obligations that have taken up a significant amount of my time recently. Would it be possible to extend the deadline to accommodate these obligations? Thank you for your consideration.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I hope this message finds you well. I'm writing to request an extension for my course. I've been struggling to balance my coursework with other responsibilities lately, which has affected my progress. Could you please grant me an extension to ensure I can submit quality work? Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I'm reaching out to request an extension for my course. I've been experiencing technical difficulties with the course materials, which have hindered my progress. Would it be possible to extend the deadline to ensure I can complete the assignments properly? Thank you for your assistance.",
+      "label": "course extension"
+    },
+    {
+      "message": "Dear team, how do I get my final certification?",
+      "label": "Final certification"
+    },
+    {
+      "message": "When will I get my final certification?",
+      "label": "Final certification"
+    },
+    {
+      "message": "How many days will it take to get the final certification?",
+      "label": "Final certification"
+    },
+    {
+      "message": "I completed the exam. When can I expect my final certification?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hello, I'm inquiring about the process to obtain my final certification after completing the exam.",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hi, I recently completed the course and passed the final exam. When can I expect to receive my final certification?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Dear Support Team, I have successfully completed the course and passed the final exam. Could you please let me know when I will receive my final certification?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hello, I have finished the course and passed the final exam. When will I receive my final certification for the course?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hi, I'm wondering when I will receive my final certification after completing the course and passing the final exam.",
+      "label": "Final certification"
+    },
+    {
+      "message": "Dear Team, I have completed the course and passed the final exam. Can you provide information on when I will receive my final certification?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hello, I recently finished the course and passed the final exam. When can I expect to receive my final certification for the course?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hi, I have successfully completed the course and passed the final exam. When will I receive my final certification for the course?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Dear Support Team, I'm inquiring about the process to obtain my final certification after completing the course and passing the final exam.",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hello, I recently completed the course and passed the final exam. When can I expect to receive my final certification for the course?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hi, I have finished the course and passed the final exam. When will I receive my final certification for the course?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Dear Team, I'm wondering when I will receive my final certification after completing the course and passing the final exam.",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hello, I'm experiencing difficulties with the course videos. They're not playing properly. Can you help me troubleshoot this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi there, whenever I try to play the course videos, they don't load. Could you please look into this issue and provide a solution?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Dear Support Team, I'm having trouble accessing the course videos. Every time I click on a video, it doesn't start playing. What could be the problem?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi, I'm unable to watch any of the course videos. Whenever I click play, nothing happens. Can you assist me in resolving this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hello, the course videos seem to be buffering indefinitely and not playing. Is there a problem with the video player or my internet connection?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Dear Team, I'm encountering an issue where the course videos are stuck on a loading screen and won't play. Can you please investigate and provide a solution?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi Support, I'm having trouble with the course videos. They're not loading or playing properly. Could you help me troubleshoot this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hello, I'm experiencing difficulties with the course videos. They're not playing smoothly and keep buffering. Can you assist me in resolving this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi there, I'm unable to watch any of the course videos. When I click play, nothing happens. Can you help me troubleshoot this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Dear Support Team, I'm having trouble accessing the course videos. Every time I try to play a video, it doesn't load. What could be causing this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi, I'm encountering an issue where the course videos are not playing. They seem to be stuck on a loading screen. Can you provide assistance in resolving this problem?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hello, the course videos are not playing properly. They keep buffering and won't load. Can you help me troubleshoot this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Dear Team, I'm having trouble with the course videos. They're not loading or playing smoothly. Could you please investigate and provide a solution?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi Support, I'm experiencing difficulties with the course videos. They're not playing properly and keep buffering. Can you assist me in resolving this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hello, I'm unable to watch any of the course videos. When I click play, nothing happens. Can you help me troubleshoot this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi there, I'm encountering an issue where the course videos are stuck on a loading screen and won't play. Can you provide assistance in resolving this problem?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Dear Support Team, I'm having trouble accessing the course videos. Every time I try to play a video, it doesn't load. What could be causing this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hello, I recently changed my email address and would like to update it for my course account. How can I proceed with this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hi, I'm planning to switch to a new email address. Can you help me transfer my course subscription to the new email?",
+      "label": "Change address"
+    },
+    {
+      "message": "Dear Support Team, I need to change the email address associated with my course account. Could you please assist me with this process?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hi, I'm no longer using my current email address. Can I transfer my course access to someone else's email?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hello, I'm considering transferring my course subscription to a friend. Is it possible to change the email associated with my account to theirs?",
+      "label": "Change address"
+    },
+    {
+      "message": "Dear Team, I would like to update my email address for my course account. Can you guide me through the steps to make this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hi Support, I recently changed my email address and need to update it for my course account. Could you provide instructions on how to do this?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hello, I'm planning to switch to a new email address and would like to update it for my course account. Can you help me with this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hi, I've changed my email address and need to update it for my course account. Can you assist me in making this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Dear Support Team, I need to update the email address associated with my course account. Could you please guide me through the process of making this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hello, I'm considering transferring my course subscription to a family member. Is it possible to change the email associated with my account to theirs?",
+      "label": "Change address"
+    },
+    {
+      "message": "Dear Team, I would like to update my email address for my course account. Can you provide assistance with this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hi Support, I recently changed my email address and need to update it for my course account. Could you please provide guidance on how to proceed with this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hello, I'm planning to switch to a new email address and would like to update it for my course account. Can you assist me in making this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hi, I've changed my email address and need to update it for my course account. Can you guide me through the steps to make this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Dear Support Team, I need to update the email address associated with my course account. Could you please provide instructions on how to do this?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hello, I'm considering transferring my course subscription to a friend. Is it possible to change the email associated with my account to theirs?",
+      "label": "Change address"
+    }
+  ]
+}

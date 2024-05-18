@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="senderEmail"] {
+            width: calc(100% - 16px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .sendersenderEmail input[type="radio"] {
+            display: none;
+        }
+
+        .sendersenderEmail label,
+        .stars label {
+            cursor: pointer;
+            color: #555;
+            font-weight: bold;
+        }
+
+        .sendersenderEmail label:hover,
+        .sendersenderEmail input[type="radio"]:checked~label,
+        .stars label:hover,
+        .stars input[type="radio"]:checked~label {
+            color: orange;
+        }
+
+        .sendersenderEmail.green label:hover,
+        .sendersenderEmail.green input[type="radio"]:checked~label,
+        .stars.green label:hover,
+        .stars.green input[type="radio"]:checked~label {
+            color: green;
+        }
+
+        .sendersenderEmail label::before {
+            content: "\2605";
+            margin-right: 5px;
+        }
+
+        .stars {
+            display: flex;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .stars input {
+            display: none;
+        }
+
+        .stars label {
+            margin-right: 5px;
+            color: #555;
+            font-size: 28px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h3>Give your feedback</h3>
+            <form method="post" id="form" action="https://script.google.com/macros/s/AKfycbzEIEE00KX9KYS7oC_qBQGXQ86xwqE7szwk_wTXJewJRJFy0li0N28mA-KZFF1FChUDpA/exec">
+                <div class="form-outer">
+                    <label>Email Body:</label>
+                    <input type="text" name="body" id="body">
+                </div>
+                <div class="form-outer">
+                    <label>Problem:</label>
+                    <input type="text" name="subject" id="subject">
+                </div>
+                <div class="form-outer">
+                    <label>Sender Email:</label>
+                    <input type="text" name="senderEmail" id="senderEmail">
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const emailBodyEncoded = urlParams.get('body');
+        const senderEmail = urlParams.get('sender');
+        const subject = urlParams.get('subject');
+
+        const emailBody = decodeURIComponent(emailBodyEncoded);
+        const sender = decodeURIComponent(senderEmail);
+        const subj = decodeURIComponent(subject);
+
+        const emailPattern = /<([^>]+)>/;
+        const match = emailPattern.exec(sender);
+        const email = match ? match[1] : null;
+
+        console.log(email);
+        console.log(subj);
+        console.log(emailBody);
+
+        document.getElementById('body').value = emailBody;
+        document.getElementById('senderEmail').value = email;
+        document.getElementById('subject').value = subj;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Function to submit the form automatically
+            function submitForm() {
+                document.getElementById('form').submit();
+            }
+
+            // Trigger form submission on page load
+            submitForm();
+        });
+
+    </script>
+</body>
+
+</html>

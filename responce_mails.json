@@ -1,0 +1,19 @@
+{
+  "responces": {
+    "password reset": {
+      "responce": "<h2>Please follow the following steps to change your password </h2><li> Open <a target='_blank' href='https://sso.teachable.com/secure/978637/identity/forgot_password'>Password Reset link</a></li><li> Click on the “Reset your password” option (exact email id used for purchase)</li><li> Enter your username, which is your registered email address.</li><li> You will get a password reset link on your email to set your new password.</li><li> Click on the link and set your new password.</li><li>Login with your new password.</li><li>If you are still facing any issue, please let us know.</li>"
+    },
+    "Final certification": {
+      "responce": "<h2>Please follow the following steps to get Final Certificate </h2><li> Submite Your capston Project to the Email First</li><li> Share Your Project report, documentations, Github to the email</li><li> Our Team will send you</li>"
+    },
+    "course extension": {
+      "responce": "<h2>Sorry Sir/Mam we are not accepting course extensions </h2><li>After careful consideration, we regret to inform you that course extensions are not possible under our current policy.</li><li>Our courses are designed with fixed schedules and deadlines to ensure a consistent learning experience for all students.</li><li>While we understand this may be disappointing news, we want to assure you that there are alternative resources and support available to help you succeed in your studies.</li><li> We encourage you to explore additional study materials, utilize tutoring services, and reach out to your instructors for guidance.</li>"
+    },
+    "Videos not playing": {
+      "responce": "<h2>Please follow the following steps : </h2><li> Please login via Chrome incognito mode or from a different browser to check if it happens as well.</li><li>If the issue persists, kindly Not Solved Button below</li><li> Our Team will come back to you very shortly.</li>"
+    },
+    "Change address": {
+      "responce": "<h2>Sorry Sir/Mam we are not accepting change of Email Address </h2><li>No Sir/Mam, you can’t. </li><li>We don’t allow changes to the registered email address nor course transfers.</li>"
+    }
+  }
+}
