@@ -1,15 +1,9 @@
-# Gmail_API
-# Gmail_API
+In the project directory, you can run:
 
+### `npm start`
 
-Hello all this is a application in which different users login with their account and make their emails automatic responces
-This sofware is used for starts and coustmer support
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-This software is mainly based flows these stages : 
-    ->  Autcantate the user from to get mails and all
-    -> Collect mails from the users     
-    -> use ml cohearnt ml model to classifi the mail 
-    -> send related responce to the user for his problem along with feedback
-    -> Based on users feedback send if :
-                                        -> users problem solved thank you message and mark as completed
-                                        -> else send the problem and related data to the support team
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
