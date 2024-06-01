@@ -1,0 +1,226 @@
+.dashboard {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #1f1d2b;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sidebar ul li.active {
+  background-color: #353945;
+}
+
+.sidebar ul li:hover {
+  background-color: #353945;
+}
+
+.sidebar ul li svg {
+  margin-right: 10px;
+}
+
+.pro-upgrade {
+  margin-top: auto;
+  text-align: center;
+}
+
+.pro-upgrade button {
+  background: linear-gradient(to right, #7f00ff, #e100ff);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f5f6fa;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+.search-bar {
+  width: 250px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.stat {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 30%;
+}
+
+.stat p {
+  margin: 0;
+  color: #888;
+}
+
+.stat h2 {
+  margin: 10px 0;
+}
+
+.stat span {
+  color: #4caf50;
+}
+
+.email-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.email-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-header h2 {
+  margin: 0;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+}
+
+.filter-group {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.filter-group input {
+  margin-right: 5px;
+}
+
+.email-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.email-table th, .email-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.email-table th {
+  background-color: #f5f6fa;
+}
+
+.email-table tr:hover {
+  background-color: #f5f6fa;
+}
+
+.email-table button {
+  background-color: #1f1d2b;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #1f1d2b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Dashboard.css */
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 30%;
+}
+
+.stat p {
+  margin: 0;
+  color: #888;
+  font-size: 16px;
+}
+
+.stat h2 {
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+.stat div {
+  display: flex;
+  flex-direction: column;
+}
